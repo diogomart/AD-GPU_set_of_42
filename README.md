@@ -29,5 +29,14 @@ the scoring function.
 
 # Number of atoms and rotatable bonds 
 
-<img src="atoms_vs_rotbonds.png" width="200">
+<img src="atoms_vs_rotbonds.png" width="700">
 
+
+# Details
+
+In ligand\_properties.csv
+* `pdb` Protein Data Bank accession code
+* `n_atom` number of atoms in the ligand
+* `n_tors` number of bonds in the ligand that can rotate during docking
+* `score_of_probable_global_minimum` best score that can be calculated with probable convergence (score is the sum of intra- and inter-moleculer energy components) 
+* `RMSD_of_probable_global_minimum` RMSD from X-ray pose for the solution with the best score 
