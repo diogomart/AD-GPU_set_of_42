@@ -1,4 +1,4 @@
-,pdb,n_atoms,n_tors,probable_global_minimum,RMSD_of_probable_global_minimum
+,pdb,n_atoms,n_tors,score_of_probable_global_minimum,RMSD_of_probable_global_minimum
 0,1kzk,45,11,-20.42,0.8
 1,1hnn,18,2,-9.32,1.31
 2,1m2z,31,5,-15.5,0.87
