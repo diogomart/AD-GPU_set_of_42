@@ -1,0 +1,28 @@
+REMARK  Name = LIGAND
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_18
+REMARK    2  A    between atoms: C_18  and  C_21
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      36.573  58.068  78.132  0.00  0.00    -0.014 A 
+ATOM      2  C   UNL     1      35.449  58.188  79.053  0.00  0.00    +0.009 A 
+ATOM      3  C   UNL     1      35.596  57.810  80.368  0.00  0.00    +0.001 A 
+ATOM      4  C   UNL     1      36.837  57.336  80.831  0.00  0.00    +0.001 A 
+ATOM      5  C   UNL     1      37.929  57.189  79.997  0.00  0.00    +0.008 A 
+ATOM      6  C   UNL     1      37.854  57.563  78.610  0.00  0.00    -0.018 A 
+ATOM      7  C   UNL     1      38.944  57.458  77.731  0.00  0.00    +0.008 A 
+ATOM      8  C   UNL     1      38.798  57.814  76.431  0.00  0.00    +0.001 A 
+ATOM      9  C   UNL     1      37.585  58.301  75.892  0.00  0.00    +0.005 A 
+ATOM     10  C   UNL     1      36.467  58.415  76.781  0.00  0.00    -0.029 A 
+ENDROOT
+BRANCH  10  11
+ATOM     11  C   UNL     1      35.140  58.989  76.214  0.00  0.00    +0.160 C 
+BRANCH  11  12
+ATOM     12  C   UNL     1      35.432  59.967  75.126  0.00  0.00    +0.360 C 
+ATOM     13  O   UNL     1      35.573  59.350  73.962  0.00  0.00    -0.246 OA
+ATOM     14  O   UNL     1      35.633  61.243  75.328  0.00  0.00    -0.246 OA
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+TORSDOF 2

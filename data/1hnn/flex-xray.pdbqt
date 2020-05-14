@@ -1,0 +1,32 @@
+REMARK  Name = LIGAND
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  S_5
+REMARK    2  A    between atoms: S_5  and  N_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      28.348  46.037  16.783  0.00  0.00    +0.005 A 
+ATOM      2  C   UNL     1      28.720  45.174  17.807  0.00  0.00    -0.048 A 
+ATOM      3  C   UNL     1      29.488  45.705  18.978  0.00  0.00    +0.016 C 
+ATOM      4  C   UNL     1      29.211  44.848  20.194  0.00  0.00    -0.077 C 
+ATOM      5  N   UNL     1      29.700  43.483  19.860  0.00  0.00    +0.382 N 
+ATOM      6  H   UNL     1      29.678  42.877  20.671  0.00  0.00    -0.085 HD
+ATOM      7  H   UNL     1      30.682  43.560  19.629  0.00  0.00    -0.085 HD
+ATOM      8  C   UNL     1      28.965  42.843  18.744  0.00  0.00    -0.046 C 
+ATOM      9  C   UNL     1      28.642  43.790  17.616  0.00  0.00    -0.059 A 
+ATOM     10  C   UNL     1      28.193  43.286  16.410  0.00  0.00    +0.030 A 
+ATOM     11  C   UNL     1      27.822  44.147  15.385  0.00  0.00    +0.105 A 
+ATOM     12  C   UNL     1      27.899  45.532  15.570  0.00  0.00    +0.029 A 
+ENDROOT
+BRANCH  11  13
+ATOM     13  S   UNL     1      27.261  43.490  13.847  0.00  0.00    +0.056 S 
+ATOM     14  O   UNL     1      25.866  43.133  13.873  0.00  0.00    -0.153 OA
+ATOM     15  O   UNL     1      27.485  44.430  12.770  0.00  0.00    -0.153 OA
+BRANCH  13  16
+ATOM     16  N   UNL     1      28.105  42.187  13.573  0.00  0.00    -0.204 NA
+ATOM     17  H   UNL     1      29.111  42.169  13.795  0.00  0.00    +0.144 HD
+ATOM     18  H   UNL     1      27.651  41.354  13.172  0.00  0.00    +0.144 HD
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+TORSDOF 2
