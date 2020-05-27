@@ -37,6 +37,7 @@ the scoring function.
 In ligand\_properties.csv
 * `pdb` Protein Data Bank accession code
 * `n_atom` number of atoms in the ligand
-* `n_tors` number of bonds in the ligand that can rotate during docking
-* `score_of_probable_global_minimum` best score that can be calculated with visible convergence (score is the sum of intra- and inter-moleculer energy components) 
-* `RMSD_of_probable_global_minimum` RMSD from X-ray pose for the solution with the best score 
+* `n_tors` number of bonds in the ligand that can rotate during docking.
+* `score_of_probable_global_minimum` lowest (best) score (score is the sum of intra- and inter-moleculer energy components). The best score did not improve with an increase in the search effort
+* `RMSD_of_probable_global_minimum` RMSD from X-ray pose for the solution with the lowst score 
+* `best_score_so_far` lowest score ever found but even lower scores are likely to exist
